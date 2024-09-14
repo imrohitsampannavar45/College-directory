@@ -1,0 +1,83 @@
+/* FacultyDashboard.css */
+
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .class-list-container,
+  .update-profile-container {
+    margin-bottom: 30px;
+  }
+  
+  .class-list-container h2,
+  .update-profile-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .class-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .class-list .student-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .class-list .student-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .class-list .student-item img {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .class-list .student-item div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .update-profile-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-profile-form input[type="text"],
+  .update-profile-form input[type="email"],
+  .update-profile-form input[type="tel"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .update-profile-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .update-profile-form button:hover {
+    background-color: #0056b3;
+  }
+  

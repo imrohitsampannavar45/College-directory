@@ -1,0 +1,100 @@
+/* StudentDashboard.css */
+
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .profile-container,
+  .search-container,
+  .contact-container {
+    margin-bottom: 30px;
+  }
+  
+  .profile-container h2,
+  .search-container h2,
+  .contact-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .profile-info,
+  .search-results,
+  .advisor-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-info img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info div {
+    margin-bottom: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-results .result-item,
+  .advisor-list .advisor-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .search-results .result-item:hover,
+  .advisor-list .advisor-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .search-results .result-item h4,
+  .advisor-list .advisor-item h4 {
+    margin: 0;
+  }
+  
+  .contact-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
